@@ -24,3 +24,7 @@ public:
         cout << "Name: " << name << ", Age: " << age << endl;
     }
 };
+int main(){
+    Person p1("Samir",20);
+    p1.display();
+}
